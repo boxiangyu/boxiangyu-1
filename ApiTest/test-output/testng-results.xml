@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="46197" started-at="2019-03-24T06:38:53Z" finished-at="2019-03-24T06:39:40Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="46197" started-at="2019-03-24T06:38:53Z" finished-at="2019-03-24T06:39:40Z">
+      <class name="com.test.one.GetApiTest2">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.test.one.GetApiTest2@523884b2]" name="beforeClass" is-config="true" duration-ms="25" started-at="2019-03-24T06:38:53Z" finished-at="2019-03-24T06:38:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.one.GetApiTest2@523884b2]" name="f" duration-ms="4417" started-at="2019-03-24T06:38:54Z" data-provider="apiData" finished-at="2019-03-24T06:38:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[001]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[POST]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://reqres.in/api/users]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"name":"morpheus1","job":"leader1"}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA["name":"morpheus2"]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[201]]>
+              </value>
+            </param>
+            <param index="6">
+              <value is-null="true"/>
+            </param>
+            <param index="7">
+              <value is-null="true"/>
+            </param>
+            <param index="8">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.one.GetApiTest2@523884b2]" name="f" duration-ms="3169" started-at="2019-03-24T06:38:59Z" data-provider="apiData" finished-at="2019-03-24T06:39:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[002]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[POST]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://reqres.in/api/users]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"name":"morpheus2","job":"leader2"}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA["name":"morpheus2"]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[201]]>
+              </value>
+            </param>
+            <param index="6">
+              <value is-null="true"/>
+            </param>
+            <param index="7">
+              <value is-null="true"/>
+            </param>
+            <param index="8">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.one.GetApiTest2@523884b2]" name="f" duration-ms="2627" started-at="2019-03-24T06:39:02Z" data-provider="apiData" finished-at="2019-03-24T06:39:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[003]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[POST]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://reqres.in/api/users]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"name":"morpheus3","job":"leader3"}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA["name":"morpheus3"]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[201]]>
+              </value>
+            </param>
+            <param index="6">
+              <value is-null="true"/>
+            </param>
+            <param index="7">
+              <value is-null="true"/>
+            </param>
+            <param index="8">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.one.GetApiTest2@523884b2]" name="f" duration-ms="3160" started-at="2019-03-24T06:39:05Z" data-provider="apiData" finished-at="2019-03-24T06:39:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[004]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[POST]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://reqres.in/api/users]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"name":"morpheus4","job":"leader4"}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA["name":"morpheus4"]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[201]]>
+              </value>
+            </param>
+            <param index="6">
+              <value is-null="true"/>
+            </param>
+            <param index="7">
+              <value is-null="true"/>
+            </param>
+            <param index="8">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.one.GetApiTest2@523884b2]" name="f" duration-ms="1977" started-at="2019-03-24T06:39:08Z" data-provider="apiData" finished-at="2019-03-24T06:39:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[005]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[POST]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://reqres.in/api/users]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"name":"morpheus5","job":"leader5"}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA["name":"morpheus5"]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[201]]>
+              </value>
+            </param>
+            <param index="6">
+              <value is-null="true"/>
+            </param>
+            <param index="7">
+              <value is-null="true"/>
+            </param>
+            <param index="8">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.one.GetApiTest2@523884b2]" name="f" duration-ms="10561" started-at="2019-03-24T06:39:10Z" data-provider="apiData" finished-at="2019-03-24T06:39:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[006]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[GET]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://reqres.in/api/users?page=2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA["first_name": "Charles"]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="6">
+              <value is-null="true"/>
+            </param>
+            <param index="7">
+              <value is-null="true"/>
+            </param>
+            <param index="8">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.one.GetApiTest2@523884b2]" name="f" duration-ms="1901" started-at="2019-03-24T06:39:20Z" data-provider="apiData" finished-at="2019-03-24T06:39:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[007]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[GET]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://reqres.in/api/users/2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA["first_name": "Janet"]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="6">
+              <value is-null="true"/>
+            </param>
+            <param index="7">
+              <value is-null="true"/>
+            </param>
+            <param index="8">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.one.GetApiTest2@523884b2]" name="f" duration-ms="2162" started-at="2019-03-24T06:39:22Z" data-provider="apiData" finished-at="2019-03-24T06:39:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[008]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[GET]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://reqres.in/api/unknown]]>
+              </value>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA["name": "cerulean"]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="6">
+              <value is-null="true"/>
+            </param>
+            <param index="7">
+              <value is-null="true"/>
+            </param>
+            <param index="8">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.one.GetApiTest2@523884b2]" name="f" duration-ms="3229" started-at="2019-03-24T06:39:24Z" data-provider="apiData" finished-at="2019-03-24T06:39:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[009]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[GET]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://reqres.in/api/unknown/2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA["name": "fuchsia rose"]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="6">
+              <value is-null="true"/>
+            </param>
+            <param index="7">
+              <value is-null="true"/>
+            </param>
+            <param index="8">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.one.GetApiTest2@523884b2]" name="f" duration-ms="7278" started-at="2019-03-24T06:39:28Z" data-provider="apiData" finished-at="2019-03-24T06:39:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[010]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[GET]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://reqres.in/api/users?delay=3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA["first_name": "George"]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="6">
+              <value is-null="true"/>
+            </param>
+            <param index="7">
+              <value is-null="true"/>
+            </param>
+            <param index="8">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.one.GetApiTest2@523884b2]" name="f" duration-ms="4339" started-at="2019-03-24T06:39:35Z" data-provider="apiData" finished-at="2019-03-24T06:39:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[011]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[GET]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://reqres.in/api/users?delay=3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA["first_name": "Janet"]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="6">
+              <value is-null="true"/>
+            </param>
+            <param index="7">
+              <value is-null="true"/>
+            </param>
+            <param index="8">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.test.one.GetApiTest2@523884b2]" name="afterClass" is-config="true" duration-ms="395" started-at="2019-03-24T06:39:39Z" finished-at="2019-03-24T06:39:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.test.one.GetApiTest2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
