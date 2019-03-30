@@ -28,7 +28,7 @@ public class ExcelUtil1 {
 	/*
 	 *读取excel文件
 	 */
-	public static Object[][] readExcelData(String filePath,int sheetId) throws IOException, Exception{
+	public static Object[][] readExcelData(String filePath,int sheetId) throws  Exception{
 		File file = new File(filePath);
 		FileInputStream fileInputStream = new FileInputStream(file);
 		
@@ -39,11 +39,11 @@ public class ExcelUtil1 {
 		
 		Object[][] dttData = new Object[numberrow-1][numbercell];
 		for(int i=1;i<numberrow;i++) {
-			if(null==sheet.getRow(i)||"".equals(sheet.getRow(i))) {
+			if(null==sheet.getRow(i)) {
 				continue;
 			}
 			for(int j=0;j<numbercell;j++) {
-				if(null==sheet.getRow(i).getCell(j)||"".equals(sheet.getRow(i).getCell(j))) {
+				if(null==sheet.getRow(i).getCell(j)) {
 					continue;
 				}
 				XSSFCell cell = sheet.getRow(i).getCell(j);
@@ -57,7 +57,7 @@ public class ExcelUtil1 {
 	/**
      * 把内容写入Excel
      * @param list 传入要写的内容，此处以一个List内容为例，先把要写的内容放到一个list中
-     * @param outputStream 把输出流怼到要写入的Excel上，准备往里面写数据
+     * @param  outputStream  把输出流怼到要写入的Excel上，准备往里面写数据
 	 * @throws FileNotFoundException 
      */
     public static void writeExcel(List<List> list, String filePath) throws FileNotFoundException {

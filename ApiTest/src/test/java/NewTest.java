@@ -3,6 +3,8 @@ import org.testng.annotations.Test;
 public class NewTest {
   @Test
   public void f() {
-    //ä½ å¥½æˆ‘ä»¬å·å‘å¡ç§¯åˆ†å¡å¼€å‘
+    //ÄãºÃÎÒÃÇºÅ·¢¿¨»ı·Ö¿¨¿ª·¢
+    //ÎÒÃÇÄØtesttesttest
+    //ºÍºÍÎÒi
   }
 }
