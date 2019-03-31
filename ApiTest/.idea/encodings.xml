@@ -2,6 +2,7 @@
 <project version="4">
   <component name="Encoding" addBOMForNewFiles="with NO BOM">
     <file url="file://$PROJECT_DIR$" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/jason/restclient/RestClient.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/test/java/NewTest.java" charset="GBK" />
     <file url="PROJECT" charset="GBK" />
   </component>

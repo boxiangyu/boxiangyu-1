@@ -2,12 +2,11 @@
 <suite name="Suite" parallel="false">
   <test name="Test">
     <classes>
-      <class name="com.test.one.GetApiTest"/>
       <class name="com.test.one.GetApiTest2"/>
     </classes>
   </test> <!-- Test -->
-  <listeners>
+<!--  <listeners>
         <listener class-name="com.test.tools.ExtentTestNGIReporterListener"/>
-    </listeners>
+    </listeners>-->
   
 </suite> <!-- Suite -->

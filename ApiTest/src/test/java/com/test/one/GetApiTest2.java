@@ -4,11 +4,9 @@ import static org.testng.Assert.fail;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.FormatFlagsConversionMismatchException;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.*;
 import java.util.Map.Entry;
 
 import javax.naming.spi.DirStateFactory.Result;
@@ -26,7 +24,7 @@ import com.jason.restclient.RestClient;
 import com.jason.utils.ExcelUtil1;
 
 public class GetApiTest2 extends TestBase {
-	String path,path2;
+	String path,path2,host;
 	RestClient restClient;
 	CloseableHttpResponse closeableHttpResponse;
 	HashMap<String, String> headermap;
@@ -39,10 +37,11 @@ public class GetApiTest2 extends TestBase {
 	@BeforeClass
 	public void beforeClass() {
 		path = properties.getProperty("TESTCASE_PATH");
+		host = properties.getProperty("HOST");
 		headermap = new HashMap<String, String>();
 		headermap.put("Content-Type", "application/json");
 		restClient = new RestClient();
-		path2 = "E://result.xlsx";
+		path2 = properties.getProperty("RESULT_PATH");
 		map = new HashMap<String, List<String>>();
 		
 	}
@@ -54,10 +53,10 @@ public class GetApiTest2 extends TestBase {
 
 	@Test(dataProvider="apiData")
 	public void f(String num, String type, String url, String request,String expectedResult, String expectedCode, String Code2, String response, String result) throws IOException {
-		if (type.equals("POST")) {
-			closeableHttpResponse = restClient.post(url, request, headermap);
-		}else {
-			closeableHttpResponse = restClient.get(url);
+		if (type.equals("POST")|| type.equals("post")) {
+			closeableHttpResponse = restClient.post(host+url, request, headermap);
+		}else if(type.equals("GET")|| type.equals("get")){
+			closeableHttpResponse = restClient.get(host+url);
 		}
 		int actualCode = closeableHttpResponse.getStatusLine().getStatusCode();
 		List<String> stringList = new ArrayList<String>();
@@ -95,7 +94,10 @@ public class GetApiTest2 extends TestBase {
 	@AfterClass
 	public void afterClass() throws FileNotFoundException {
 		list = ExcelUtil1.convertMapToList(map);
-		ExcelUtil1.writeExcel(list, path2);
+		Date date = new Date();
+		String filename = new SimpleDateFormat("yyyyMMddHHmmss").format(date);
+		String resultPath = path2+"/"+filename+".xlsx";
+		ExcelUtil1.writeExcel(list, resultPath);
 		System.out.println("≤‚ ‘Ω· ¯");
 	}
 
